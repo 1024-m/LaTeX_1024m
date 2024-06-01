@@ -1,0 +1,236 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+\usepackage{xcolor}
+% CRIMSON
+\definecolor{myColor1}{HTML}{B70000} 
+% INDIGO
+%\definecolor{myColor1}{HTML}{0002B2} 
+% PURPLE
+%\definecolor{myColor1}{HTML}{410098} 
+% SAFFRON
+%\definecolor{myColor1}{HTML}{CB4D00} 
+% GREEN
+%\definecolor{myColor1}{HTML}{11A100} 
+% CYAN
+%\definecolor{myColor1}{HTML}{008275}
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+% serif
+
+%\usepackage{carlito}
+%\renewcommand{\familydefault}{\sfdefault}
+
+%\usepackage{helvet}
+%\renewcommand{\familydefault}{\sfdefault}
+
+%\usepackage{lato}
+%\renewcommand{\familydefault}{\sfdefault}
+
+% \usepackage{CormorantGaramond}
+ \usepackage{charter}
+ 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% Sections formatting
+\titleformat{\section}{\vspace{-4pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{ \vspace{-3pt}\item \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r} 
+   #1 & #2 \\ \textit{\small#3} & \textit{\small #4} \\ \end{tabular*}\vspace{-8pt}}
+\newcommand{\resumeSubSubheading}[2]{\item \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+   \textit{\small#1} & \textit{\small #2} \\ \end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeProjectHeading}[2]{ \item \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+   \small#1 & #2 \\ \end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.08in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-8pt}}
+%-------------------------------------------
+\begin{document}
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape \textcolor{myColor1}{Ram Kadiyala}} \\ \vspace{2pt}
+    \small
+    \faPhone \underline{ 240-756-8427} $|$
+    \href{mailto:contact@rkadiyala.com}{\faEnvelope \underline{ contact@rkadiyala.com}} $|$ 
+    \href{https://linkedin.com/in/1024-m}{\faLinkedin \underline{ linkedin.com/in/1024-m}} $|$
+    \href{https://github.com/1024-m}{ \faGithub \underline{ github.com/1024-m}} $|$
+    %\href{https://huggingface.co/1024m}{\underline{ \faGlobe huggingface.co/1024m}} $|$
+    \href{https://www.rkadiyala.com}{\faGlobe \underline{ rkadiyala.com}}
+\end{center}\vspace{-20pt}
+%-----------EDUCATION-----------
+\section{\textbf{\textcolor{myColor1}{Education}}}
+  \resumeSubHeadingListStart
+  \vspace{2pt}
+    \resumeSubheading
+      {\textbf{Masters in Machine Learning}}{\textbf{Aug 2022 - May 2024}}
+      {University of Maryland, College Park}{College Park, MD}\vspace{3pt}
+    \resumeSubheading
+      {\textbf{Graduate Certificate in Data Science}}{\textbf{Aug 2022 - May 2023}}
+      {University of Maryland, College Park}{College Park, MD}
+  \resumeSubHeadingListEnd \vspace{-12pt}
+%-----------EXPERIENCE-----------
+\section{\textbf{\textcolor{myColor1}{Experience}}}
+  \resumeSubHeadingListStart
+  \vspace{2pt}
+    \resumeSubheading
+      {\textbf{Research Assistant } $|$ \textbf{ RVR\&JCCE}}{\textbf{Jan 2024 – May 2024}}
+      {}{}\vspace{-13pt}
+      \resumeItemListStart
+        \resumeItem{Built ensembles with LLMs for classifying social media texts for various medical research tasks.}
+        \resumeItem{Compared results from various approches, published findings in ACL.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {\textbf{Research Assistant } $|$ \textbf{ VVIT}}{\textbf{Aug 2022 – Jan 2024}}
+      {}{}\vspace{-13pt}
+      \resumeItemListStart
+        \resumeItem{Contributed to pre-processing a mix of geographically diverse retina image datasets.}
+        \resumeItem{Built models for identifying optical disk and optical cup regions for accurate diagnosis of glaucoma.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {\textbf{Research Assistant } $|$ \textbf{ RVR\&JCCE}}{\textbf{Aug 2022 – Jan 2023}}
+      {}{}\vspace{-13pt}
+      \resumeItemListStart
+        \resumeItem{Assisted in building models for bias detection / clickbait in Telugu news articles and newspapers.}
+        \resumeItem{Contributed to building models to identify the reliability of each of the news sources for each domain.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {\textbf{ML \& IoT Intern } $|$ \textbf{ Bolt IoT}}{\textbf{Feb 2021 – Apr 2021}}
+      {}{}\vspace{-13pt}
+      \resumeItemListStart
+        \resumeItem{Contributed to Building ML Models a smart humidity, lighting, and temperature management project.}
+        \resumeItem{Integrated the models with programmable IoT devices for automation.}
+      \resumeItemListEnd     
+    \resumeSubheading
+      {\textbf{Founder } $|$ \textbf{ Black Ops Esports}}{\textbf{Nov 2018 - Apr 2022}}
+      {}{}\vspace{-13pt}
+      \resumeItemListStart
+        \resumeItem{Established and led an E-sports organization for over 3 years, mentoring teams across 12 games.}
+        \resumeItem{Built Image-Time Series models in the latter years for making better strategies in Battle Royale games.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd \vspace{-14pt}
+%-----------PUBLICATIONS-----------
+\section{\textbf{\textcolor{myColor1}{Publications}}}
+  \resumeSubHeadingListStart
+  \vspace{2pt}
+    \resumeSubheading
+      {\textbf{Multi-class Emotion detection on highly imbalanced data.}}{\textbf{ACL 2023}}
+      {}{}\vspace{-13pt}
+      \resumeItemListStart
+        \resumeItem{Built models for multi-class emotion detection from user essays on highly imbalanced data using RoBERTa-large.}
+        \resumeItem{Finished 1st out of 121 teams : WASSA 2023 - Task 1.}\vspace{2pt}
+      \resumeItemListEnd
+    \resumeSubheading
+      {\textbf{Word-Level Text Boundary Detection in Partially machine generated texts.}}{\textbf{NAACL 2024}}
+      {}{}\vspace{-13pt}
+      \resumeItemListStart
+        \resumeItem{Built models for detecting text boundary in partially AI generated, 30\% improvement over proprietary systems.}
+        \resumeItem{Finished 1st on seen generators and 6th on unseen generators out of 308 teams : SemEval 2024 Task 8.}\vspace{2pt}
+      \resumeItemListEnd
+    \resumeSubheading
+      {\textbf{Can LLMs Understand Social Media Texts Without Context ?}}{\textbf{Withdrawn}}
+      {}{}\vspace{-13pt}
+      \resumeItemListStart
+        \resumeItem{Built models to classify threat level and target groups in low-resource code-mixed languages social media texts.}
+        \resumeItem{Finetuned various models : LLAMA-2, Mistral-v2, etc.. Compared with proprietary models : GPT4, Claude Opus}\vspace{2pt}
+      \resumeItemListEnd
+    \resumeSubheading
+      {\textbf{Ensembles of Transformers and LLMs for Medical Text Classification.}}{\textbf{ACL 2024}}
+      {}{}\vspace{-13pt}
+      \resumeItemListStart
+        \resumeItem{Built LLAMA3-Bart-Large ensemble models for classification of social media texts for medical research tasks.}
+        \resumeItem{Finished in top 3 in all tasks : SMM4H 2024 Task 3, 5 and 6.}\vspace{2pt}
+      \resumeItemListEnd
+    \resumeSubheading
+      {\textbf{Cross-lingual emotion detection through Large Language Models.}}{\textbf{ACL 2024}}
+      {}{}\vspace{-13pt}
+      \resumeItemListStart
+        \resumeItem{Built models using LLMs to evaluate effectiveness in sentiment analysis cross-lingually.}
+        \resumeItem{Finished 1st out of 72 teams with a large lead : WASSA 2024 - Task 2.}\vspace{2pt}
+      \resumeItemListEnd
+    \resumeSubheading
+      {\textbf{Can Large Language Models Serve as Reliable Psychometric Analysts ? (Ongoing)}}{\textbf{ACL 2024}}
+      {}{}\vspace{-13pt}
+      \resumeItemListStart
+        \resumeItem{Building models to predict personality and psychological traits of users through their texts history.}
+        %\resumeItem{Job description/Award/Achievement 2}
+      \resumeItemListEnd  
+    \resumeSubHeadingListEnd \vspace{-12pt}
+%-----------PROJECTS-----------
+%\section{\textbf{Other Relevant Projects}}
+%    \resumeSubHeadingListStart
+%      \resumeProjectHeading
+%          {\textbf{LLM generated text detection}}{} %$|$ \emph{Technologies used}}{June 2021 -- Present}
+%          \resumeItemListStart
+%            \resumeItem{Built models to detect AI generated texts from seen and unseen generators using GANs using LLMs and DialogRPT.}
+%            \resumeItem{Achieved 91\% accuracy on seen generators and 86\% accuracy on unseen generators.}\vspace{-2pt}
+%          \resumeItemListEnd
+%      \resumeProjectHeading
+%          {\textbf{Image/Video to Artistic Image/GIF Converter}}{} %$|$ \emph{Technologies used}}{June 2021 -- Present}
+%          \resumeItemListStart
+%            \resumeItem{Built models to convert Images to Image and Videos to GIF in low poly art or animated pixel art formats.}
+%            \resumeItem{Built models to pick certain number of relevant colors to make the output look better.}\vspace{-2pt}
+%          \resumeItemListEnd
+%       \resumeProjectHeading
+%          {\textbf{Sarcastic text generator reddit bot}}{} %$|$ \emph{Technologies used}}{June 2021 -- Present}
+%          \resumeItemListStart
+%            \resumeItem{Built models using Quantized Mixtral-v2-7B to finetune over the subreddit's posts and post texts.}
+%            \resumeItem{performed better than the average human written posts in terms of user engagement and relevance.}\vspace{-2pt}
+%          \resumeItemListEnd   
+%    \resumeSubHeadingListEnd \vspace{-12pt}
+%-----------TECHNICAL SKILLS-----------
+\section{\textbf{\textcolor{myColor1}{Technical Skills}}}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C, HTML/CSS, JavaScript, SQL, R, MATLAB, LaTeX, Markdown} \\
+     \textbf{Technical}{: AWS, Google Cloud, Prompt Engineering, Gradio, SEO, UX Design, Open AI API,} \\
+    }}
+ \end{itemize} \vspace{-20pt}
+%-----------CO-CURRICULAR ACHIEVEMENTS-----------
+\section{\textbf{\textcolor{myColor1}{Co-curricular achievements}}}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{International Mathematics Olympiad 2015} : Rank 283 out of over 700K \\
+     \textbf{International Mathematics Olympiad 2014} : Rank 183 out of over 650K \\
+     \textbf{International Mathematics Olympiad 2013} : Rank 389 out of over 650K \\
+     \textbf{International Mathematics Olympiad 2012} : Rank 110 out of over 650K \\
+    }}
+ \end{itemize} \vspace{-12pt}
+%-------------------------------------------
+\end{document}
